@@ -1,24 +1,26 @@
-# README
+# SNIP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Url shortner implemetation in Ruby on rails in Rails 5 Rails Version 5.1.6 Ruby version 2.5.1
 
-Things you may want to cover:
+# Description
 
-* Ruby version
+This app offers reliable URL shortening like bit.ly.
 
-* System dependencies
+It's very simple to use. Pass url to the API service it will retun the shortend url.
+When you enter a shortend url you will be redirected to a result page with your shortened link
 
-* Configuration
+*How to use*
+Fire the comand 'bundle install'
+Start the server
 
-* Database creation
+*API*
 
-* Database initialization
+AP1/v1/urls POST request will create a shortend link, header must include {api_key}
 
-* How to run the test suite
+*Furthur Implementaion*
 
-* Services (job queues, cache servers, search engines, etc.)
+The API key to authenication no keeped as a static value in, needs to change in user level
 
-* Deployment instructions
 
-* ...
+
+
